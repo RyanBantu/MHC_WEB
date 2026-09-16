@@ -68,7 +68,7 @@ const AboutHistory = () => {
           </h2>
           <div className="max-w-4xl mx-auto">
             <p className="text-xl text-gray-700 leading-relaxed mb-8">
-              Mysore Hope Center was started at Kumbar Koppal in October 2005. It was birthed out of a vision that was given to Pastor Tim during a service at Gospel Hall in Tilaknagar.
+              Mysore Hope Center was started at Kumbar Koppal in October 2005. It was birthed out of a vision during a service at Gospel Hall in Tilaknagar.
             </p>
             <div className="bg-white rounded-2xl shadow-lg p-8 border-l-4 border-[#fd8a77]">
               <p className="text-lg text-gray-700 leading-relaxed">
