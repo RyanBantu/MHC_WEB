@@ -100,6 +100,12 @@ const Navigation = () => {
         >
           About us
         </a>
+        <a 
+          href="/team" 
+          className="text-black hover:text-gray-700 px-4 py-2 text-sm font-medium rounded-full transition-all duration-200 hover:bg-black/5 hover:scale-105"
+        >
+          Our Team
+        </a>
       </div>
 
       {/* Mobile menu button */}
@@ -193,6 +199,12 @@ const Navigation = () => {
               className="block px-6 py-3 text-black hover:bg-black/5 hover:text-gray-800 transition-all duration-200 font-medium"
             >
               About us
+            </a>
+            <a 
+              href="/team" 
+              className="block px-6 py-3 text-black hover:bg-black/5 hover:text-gray-800 transition-all duration-200 font-medium"
+            >
+              Our Team
             </a>
           </div>
         </div>

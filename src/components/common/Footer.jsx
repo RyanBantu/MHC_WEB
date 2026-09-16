@@ -12,18 +12,11 @@ const Footer = () => {
           <div className="md:col-span-1 lg:pr-8" data-aos="fade-up">
             <div className="flex items-center mb-6">
               <div className="w-10 h-10 mr-3">
-                <svg 
-                  width="100%" 
-                  height="100%" 
-                  viewBox="0 0 33 33" 
-                  preserveAspectRatio="xMidYMid meet"
-                  className="text-white"
-                >
-                  <path 
-                    d="M28,0H5C2.24,0,0,2.24,0,5v23c0,2.76,2.24,5,5,5h23c2.76,0,5-2.24,5-5V5c0-2.76-2.24-5-5-5ZM29,17c-6.63,0-12,5.37-12,12h-1c0-6.63-5.37-12-12-12v-1c6.63,0,12-5.37,12-12h1c0,6.63,5.37,12,12,12v1Z" 
-                    fill="currentColor"
-                  />
-                </svg>
+                <img
+                  src="/assets/home/logo-white.png"
+                  alt="Mysore Hope Center"
+                  className="w-full h-full object-contain"
+                />
               </div>
               <span className="text-xl font-bold text-[#FFF5E6]">
                 MYSORE HOPE CENTER
@@ -65,6 +58,11 @@ const Footer = () => {
                 <li>
                   <a href="/about" className="text-[#FFF5E6] hover:text-[#fd8a77] transition-colors duration-300 text-md">
                     About us
+                  </a>
+                </li>
+                <li>
+                  <a href="/team" className="text-[#FFF5E6] hover:text-[#fd8a77] transition-colors duration-300 text-md">
+                    Our Team
                   </a>
                 </li>
                 <li>

@@ -8,6 +8,7 @@ import Community from './pages/Community';
 import About from './pages/About';
 import Ministries from './pages/Ministries';
 import Support from './pages/Support';
+import Team from './pages/Team';
 import './index.css';
 import Beliefs from './pages/Beliefs';
 import Culture from './pages/Culture';
@@ -22,6 +23,7 @@ function App() {
           <Route path="/worship" element={<Worship />} />
           <Route path="/community" element={<Community />} />
           <Route path="/about" element={<About />} />
+          <Route path="/team" element={<Team />} />
           <Route path="/ministries" element={<Ministries />} /> 
           <Route path="/beliefs" element={<Beliefs />} /> 
           <Route path="/culture" element={<Culture />} /> 
